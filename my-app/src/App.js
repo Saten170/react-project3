@@ -6,16 +6,19 @@ import SectionOne from './pages/home/sectionone';
 import SectionTwo from './pages/home/sectiontwo';
 import SectionThree from './pages/home/sectionthree';
 import Fotter from './pages/home/footer';
+import About from './pages/about';
 
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <SectionOne/>
+     {/* <About/> */}
+       
+       +*-/<SectionOne/>
       <SectionTwo/>
       <SectionThree/>
-      <Fotter/>
+      <Fotter/> 
      
     </div>
   );
