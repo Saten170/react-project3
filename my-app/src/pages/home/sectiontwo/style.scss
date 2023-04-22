@@ -1,0 +1,39 @@
+.Gallery{
+    margin-bottom: 80px;
+  padding: 0 28px;
+}
+.galler-page{
+    max-width: 1120px;
+    // margin:0 160px;
+}
+.Gallery-image{
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 90px;
+}
+.G-image{
+    margin-top: 40px;
+    display: flex;
+    
+
+}
+.image-title{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #1A6692;
+    margin-bottom: 15px;
+}
+.image-description{
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+    color: #626364;
+    line-height: 1.8;
+}
+.image-p{
+    font-size: 1.25rem;
+    color: #2F956D;
+    margin-bottom: 60px;
+    color: #626364;
+    line-height: 1.8;
+}

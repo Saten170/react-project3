@@ -1,0 +1,36 @@
+.row{
+    // margin-top: 40px;
+    display: flex;
+
+    padding: 0 28px;
+}
+.row-text{
+    padding-left: 5px;
+    padding-right: 40px;
+    margin-top: 0;
+}
+.text-h4{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #1A6692;
+    margin-bottom: 15px;
+}
+.text-p{
+    margin-bottom: 45px;
+    color: #626364;
+    line-height: 1.8;
+}
+.row-btn{
+    border: 1px solid #ccc;
+    background-color: transparent;
+    color: #626364;
+    display: inline-block;
+    font-size: 1rem;
+    width: auto;
+    padding: 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.row-btn:hover{
+    background-color: gray;
+}
