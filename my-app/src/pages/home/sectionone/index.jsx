@@ -5,7 +5,9 @@ function SectionOne() {
         <div>
             <div className='welcome-text'>
                 <h2 className='main-title'>Welcome to Simple House</h2>
-                <p className='main-text'>Total 3 HTML pages are included in this template. Header image has a parallax effect. You can feel free to download, edit and use this TemplateMo layout for your commercial or non-commercial websites.</p>
+                <p className='main-text'>Total 3 HTML pages are included in this template. Header image has a parallax <br/>
+                 effect. You can feel free to download, edit and use this TemplateMo layout for <br/>
+                 your commercial or non-commercial websites.</p>
             </div>
 
             <div className='buttons'>

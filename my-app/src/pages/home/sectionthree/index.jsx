@@ -8,10 +8,16 @@ function SectionThree(){
   <div className=' row-image'><img src={image1} alt="" /> </div>
   <div className='row-text'>
     <h4 className='text-h4'>Maecenas nulla neque</h4>
-    <p className='text-p'> Redistributing this template as a downloadable ZIP file on any template collection site is strictly prohibited. You will need to 
-        <a href="">talk to us</a>  for additional permissions about our templates. Thank you.
+    <p className='text-p'>
+    Phasellus dui velit, feugiat sed elit ut, facilisis aliquam metus.
+    <br/> Ut id bibendum erat. Lorem ipsum dolor sit amet,<br/>
+     consectetur adipiscing elit. Maecenas interdum porttitor <br/>
+      imperdiet. Integer facilisis.
     </p>
-    <a className='row-btn' href="">Read More</a>
+    <div id="button_div">
+      <button id='row-btn'>Read More</button>
+    </div>
+   
   </div>
 </div>
         

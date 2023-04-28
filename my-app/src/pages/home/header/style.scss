@@ -5,12 +5,15 @@
  
     // // left:165px;
     background-repeat: no-repeat;
+    background-size: cover;
+    
    position: relative;
 
 }
 
 .header-inner{
     padding: 30px 15px;
+    // justify-content: space-between;
     display: flex;
      position: absolute;
     bottom: 0;
@@ -25,6 +28,7 @@
 .section1-image{
     display: inline-block;
     margin-right: 5px;
+    padding: 20px;
 }
 .text{
     display: inline-block;

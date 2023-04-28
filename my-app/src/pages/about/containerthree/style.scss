@@ -1,0 +1,23 @@
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    
+}
+.section-text{
+    margin-left: 40px;
+    text-align: start;
+    line-height: 25px;
+    letter-spacing: 2px;
+
+}
+.text-h2{
+   color: rgb(26, 102, 146);
+   font-size: 1.3rem;
+   font-weight: 300;
+}
+.text-p1{
+    margin-bottom: 20px;
+    line-height: 1.8;
+}

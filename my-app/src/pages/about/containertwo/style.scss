@@ -1,0 +1,47 @@
+.main{
+    display: flex;
+    padding: 0 110px;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+// .read-more{
+//     margin-left: 100px;
+// }
+.main-p{
+    margin-bottom: 35px;
+    font-size: 1rem;
+    color: rgb(98, 99, 100);
+    line-height: 1.8;
+}
+.row-btn1{
+    background-color: rgb(45, 153, 204);
+    color: white;
+    width: auto;
+    height: 40px;
+    padding: 10px 30px;
+    border: 0px;
+    cursor: pointer;
+}
+.row-btn2{
+    background-color: rgb(49, 153, 102);
+    color: white;
+    width: auto;
+    height: 40px;
+    padding: 10px 30px;
+    border: 0px;
+    cursor: pointer;
+}
+.row-btn3{
+    background-color:rgb(153, 51, 50) ;
+    color: white;
+    width: auto;
+    height: 40px;
+    padding: 10px 30px;
+    border: 0px;
+    cursor: pointer;
+}
+.row-btn1:hover,.row-btn2:hover, .row-btn3:hover{
+background-color: green;
+}

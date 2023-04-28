@@ -10,13 +10,15 @@ import image8 from './08.jpg'
 function SectionTwo() {
     return (
         <div className='Gallery'>
-            <div className='galler-page'>
+            {/* <div className='galler-page'> */}
                 <div className='G-image'>
-                    <div>
+                    <div className='aaa'>
                         <div className='Gallery-image' ><img src={image1} alt="" /></div>
                         <div>
                          <h4 className='image-title'>Fusce dictum finibus</h4>
-                         <p className='image-description'>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+                         <p className='image-description'>Nam in suscipit nisi, sit amet <br/>
+                          consectetur metus. Ut sit amet <br/> 
+                          tellus accumsan</p>
                          <p className='image-p'>$45 / $55</p>
                         </div>
                         
@@ -25,7 +27,9 @@ function SectionTwo() {
                     <div className='Gallery-image' ><img src={image2} alt="" /></div>
                         <div>
                          <h4 className='image-title'>Aliquam sagittis</h4>
-                         <p className='image-description'>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+                         <p className='image-description'>Nam in suscipit nisi, sit amet <br/>  
+                         consectetur metus. Ut sit amet <br/> 
+                         tellus accumsan</p>
                          <p className='image-p'>$65 / $70</p>
                         </div>
                     </div>
@@ -33,7 +37,9 @@ function SectionTwo() {
                     <div className='Gallery-image' ><img src={image3} alt="" /></div>
                         <div>
                          <h4 className='image-title'>Sed varius turpis</h4>
-                         <p className='image-description'>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+                         <p className='image-description'>Nam in suscipit nisi, sit amet <br/> 
+                          consectetur metus. Ut sit amet <br/> 
+                           tellus accumsan</p>
                          <p className='image-p'>$30.50</p>
                         </div>
                     </div>
@@ -41,7 +47,9 @@ function SectionTwo() {
                     <div className='Gallery-image' ><img src={image4} alt="" /></div>
                         <div>
                          <h4 className='image-title'>Aliquam sagittis</h4>
-                         <p className='image-description'>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+                         <p className='image-description'>Nam in suscipit nisi, sit amet <br/> 
+                          consectetur metus. Ut sit amet <br/> 
+                           tellus accumsan</p>
                          <p className='image-p'>$25.50</p>
                         </div>
                     </div>
@@ -52,7 +60,9 @@ function SectionTwo() {
                         <div className='Gallery-image' ><img src={image5} alt="" /></div>
                         <div>
                          <h4 className='image-title'>Maecenas eget justo</h4>
-                         <p className='image-description'>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+                         <p className='image-description'>Nam in suscipit nisi, sit amet <br/> 
+                          consectetur metus. Ut sit amet <br/> 
+                           tellus accumsan</p>
                          <p className='image-p'>$80 / $25</p>
                         </div>
                         
@@ -61,7 +71,8 @@ function SectionTwo() {
                     <div className='Gallery-image' ><img src={image6} alt="" /></div>
                         <div>
                          <h4 className='image-title'>Quisque et felis eros</h4>
-                         <p className='image-description'>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+                         <p className='image-description'>Nam in suscipit nisi, sit amet <br/> 
+                          consectetur metus. Ut sit amet <br/>  tellus accumsan</p>
                          <p className='image-p'>$20 / $40 / $60</p>
                         </div>
                     </div>
@@ -69,7 +80,7 @@ function SectionTwo() {
                     <div className='Gallery-image' ><img src={image7} alt="" /></div>
                         <div>
                          <h4 className='image-title'>Sed ultricies dui</h4>
-                         <p className='image-description'>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+                         <p className='image-description'>Nam in suscipit nisi, sit amet <br/> consectetur metus. Ut sit amet <br/> tellus accumsan</p>
                          <p className='image-p'>$94</p>
                         </div>
                     </div>
@@ -77,14 +88,15 @@ function SectionTwo() {
                     <div className='Gallery-image' ><img src={image8} alt="" /></div>
                         <div>
                          <h4 className='image-title'>Donec porta consequat</h4>
-                         <p className='image-description'>Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+                         <p className='image-description'>Nam in suscipit nisi, sit amet <br/>
+                          consectetur metus. Ut sit amet <br/> tellus accumsan</p>
                          <p className='image-p'>$15</p>
                         </div>
                     </div>
                 </div>
 
 
-            </div>
+            {/* </div> */}
 
         </div>
     )
